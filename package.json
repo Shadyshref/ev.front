@@ -1,12 +1,11 @@
 {
   "name": "createfirstproject",
   "homepage": "https://Shadyshref.github.io/ev.front",
-"private": true,
- "version": "0.0.0",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
-    "build": "vite build",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
